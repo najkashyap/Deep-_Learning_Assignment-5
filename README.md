@@ -4,6 +4,7 @@ Implementing Convolutional Neural Networks on MNIST dataset from scratch.
 Implement and train a convolution neural network from scratch in Python for the MNIST dataset.The convolution network should have a single hidden layer with multiple channels. It should achieve at least 96% accuracy on the Test Set.
 #Implementation:
 In my code, I defined a class CNN to represent the model and contain its parameters. I first initialize a random set of parameters, and then I use stochastic logistic regression algorithm to train the convolutional neural network model with data replacement. Then I test the data based on the training dataset to get the accuracy score. Below are the related parameters I used.
+
 batch_size = 1
 num_iterations=150000
 learning_rate=0.008
